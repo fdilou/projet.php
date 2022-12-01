@@ -25,7 +25,6 @@ if (!empty($_POST)) {
             $_SESSION['messages']['info'][]='Bienvenue '.$utilisateur['pseudo']. ' &#128522';
             header('location:./');
             exit();
-// bon appetit
 
         } else {
 
